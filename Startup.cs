@@ -41,7 +41,7 @@ namespace gatwayapi
                 app.UseHsts();
             }
 
-            // app.UseHttpsRedirection();
+            app.UseMvcWithDefaultRoute();
             app.UseMvc();
         }
     }
